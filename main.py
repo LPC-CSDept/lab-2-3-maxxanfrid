@@ -4,12 +4,13 @@ def main():
     val1 = int(input('Enter your number'))
     val2 = int(input('Enter your number'))
     val3 = int(input('Enter your number'))
+    print('Values:', val1, val2, val3)
     
     total = val1 + val2 + val3
-    print(f'Summation: \t {total:>20}')
+    print(f'The summation is {total:>20}')
     
     avg = total / 3
-    print(f'Average: \t {avg:.2f}')
+    print(f'The average is {avg:.2f}')
     ##################################################
 
     pass
