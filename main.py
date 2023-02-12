@@ -9,7 +9,7 @@ def main():
     print(f'The summation is {total:>20}')
     
     avg = total / 3
-    print(f'The summation is {avg:.2f}')
+    print(f'The average is {avg:.2f}')
     ##################################################
 
     pass
